@@ -9,6 +9,7 @@
       <FlexBox alignItems="Start"
         width="100%">
         <VBox>
+          
           <List headerText="Items (7)">
             <items>
               <StandardListItem title="Technical Name"
@@ -50,6 +51,28 @@
           </List>
         </VBox>
         <VBox width="700px">
+          <IconTabBar id="idIconTabBarMulti"
+            expanded="{device>/isNoPhone}"
+            class="sapUiResponsiveContentPadding">
+            <items>
+              <IconTabFilter icon="sap-icon://overview-chart"
+                text="Tab 1"
+                design="Horizontal">
+              </IconTabFilter>
+              <IconTabFilter icon="sap-icon://org-chart"
+                text="Tab 2"
+                design="Horizontal">
+              </IconTabFilter>
+              <IconTabFilter icon="sap-icon://switch-views"
+                text="Tab 3"
+                design="Horizontal">
+              </IconTabFilter>
+              <IconTabFilter icon="sap-icon://pie-chart"
+                text="tab 4"
+                design="Horizontal">
+              </IconTabFilter>
+            </items>
+          </IconTabBar>
           <List headerText="Items (7)"
             width="100%">
             <items>
