@@ -3,10 +3,136 @@
   xmlns:mvc="sap.ui.core.mvc"
   xmlns:core="sap.ui.core"
   xmlns="sap.m">
-  <Page class="sapUiContentPadding"
+  <Page class="sapUiNoPadding"
     title="Home">
     <content>
-      <!-- Place content here-->
+      <FlexBox alignItems="Start"
+        width="100%">
+        <VBox>
+          <List headerText="Items (7)">
+            <items>
+              <StandardListItem title="Technical Name"
+                description="Technical Name"
+                info="/SourcePath">
+
+              </StandardListItem>
+              <StandardListItem title="Technical Name"
+                description="Technical Name"
+                info="/SourcePath">
+
+              </StandardListItem>
+              <StandardListItem title="Technical Name"
+                description="Technical Name"
+                info="/SourcePath">
+
+              </StandardListItem>
+              <StandardListItem title="Technical Name"
+                description="Technical Name"
+                info="/SourcePath">
+
+              </StandardListItem>
+              <StandardListItem title="Technical Name"
+                description="Technical Name"
+                info="/SourcePath">
+
+              </StandardListItem>
+              <StandardListItem title="Technical Name"
+                description="Technical Name"
+                info="/SourcePath">
+
+              </StandardListItem>
+              <StandardListItem title="Technical Name"
+                description="Technical Name"
+                info="/SourcePath">
+
+              </StandardListItem>
+            </items>
+          </List>
+        </VBox>
+        <VBox width="700px">
+          <List headerText="Items (7)"
+            width="100%">
+            <items>
+              <StandardListItem title="Technical Name"
+                description="Technical Name"
+                info="/SourcePath">
+
+              </StandardListItem>
+              <StandardListItem title="Technical Name"
+                description="Technical Name"
+                info="/SourcePath">
+
+              </StandardListItem>
+              <StandardListItem title="Technical Name"
+                description="Technical Name"
+                info="/SourcePath">
+
+              </StandardListItem>
+              <StandardListItem title="Technical Name"
+                description="Technical Name"
+                info="/SourcePath">
+
+              </StandardListItem>
+              <StandardListItem title="Technical Name"
+                description="Technical Name"
+                info="/SourcePath">
+
+              </StandardListItem>
+              <StandardListItem title="Technical Name"
+                description="Technical Name"
+                info="/SourcePath">
+
+              </StandardListItem>
+              <StandardListItem title="Technical Name"
+                description="Technical Name"
+                info="/SourcePath">
+
+              </StandardListItem>
+            </items>
+          </List>
+        </VBox>
+        <VBox>
+          <List headerText="Items (7)">
+            <items>
+              <StandardListItem title="Technical Name"
+                description="Technical Name"
+                info="/SourcePath">
+
+              </StandardListItem>
+              <StandardListItem title="Technical Name"
+                description="Technical Name"
+                info="/SourcePath">
+
+              </StandardListItem>
+              <StandardListItem title="Technical Name"
+                description="Technical Name"
+                info="/SourcePath">
+
+              </StandardListItem>
+              <StandardListItem title="Technical Name"
+                description="Technical Name"
+                info="/SourcePath">
+
+              </StandardListItem>
+              <StandardListItem title="Technical Name"
+                description="Technical Name"
+                info="/SourcePath">
+
+              </StandardListItem>
+              <StandardListItem title="Technical Name"
+                description="Technical Name"
+                info="/SourcePath">
+
+              </StandardListItem>
+              <StandardListItem title="Technical Name"
+                description="Technical Name"
+                info="/SourcePath">
+
+              </StandardListItem>
+            </items>
+          </List>
+        </VBox>
+      </FlexBox>
     </content>
   </Page>
 </mvc:View>
