@@ -8,7 +8,7 @@
     <content>
       <FlexBox alignItems="Start"
         width="100%">
-        <VBox>
+        <VBox width="25%">
           
           <List headerText="Items (7)">
             <items>
@@ -50,7 +50,7 @@
             </items>
           </List>
         </VBox>
-        <VBox width="700px">
+        <VBox width="70%">
           <IconTabBar id="idIconTabBarMulti"
             expanded="{device>/isNoPhone}"
             class="sapUiResponsiveContentPadding">
