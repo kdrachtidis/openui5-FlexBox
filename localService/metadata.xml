@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="1.0"
+    xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx">
+    <edmx:DataServices m:DataServiceVersion="2.0"
+        xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata">
+        <Schema Namespace="NavigationModel"
+            xml:lang="en"
+            xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+
+            <EntityType Name="Object-BusinessBuilder">
+                <Key>
+                    <PropertyRef Name="AssetNo" />
+                </Key>
+                <Property Name="AssetNo"
+                    Type="Edm.Int64"
+                    Nullable="false"
+                    Unicode="true"
+                    FixedLength="false" />
+                <Property Name="AssetID"
+                    Type="Edm.String"
+                    Nullable="false"
+                    Unicode="true"
+                    FixedLength="false" />
+                <Property Name="BusinessName"
+                    Type="Edm.String"
+                    Nullable="false"
+                    Unicode="true"
+                    FixedLength="false" />
+                <Property Name="TechnicalName"
+                    Type="Edm.String"
+                    Nullable="false"
+                    Unicode="true"
+                    FixedLength="false" />
+                <Property Name="Type"
+                    Type="Edm.String"
+                    Nullable="false"
+                    Unicode="true"
+                    FixedLength="false" />
+                <Property Name="Status"
+                    Type="Edm.String"
+                    Nullable="true"
+                    Unicode="true"
+                    FixedLength="false" />
+                <Property Name="DeployedOn"
+                    Type="Edm.String"
+                    Nullable="true"
+                    Unicode="true"
+                    FixedLength="false" />
+                <Property Name="ChangedBy"
+                    Type="Edm.String"
+                    Nullable="true"
+                    Unicode="true"
+                    FixedLength="false" />
+                <Property Name="ChangedOn"
+                    Type="Edm.String"
+                    Nullable="true"
+                    Unicode="true"
+                    FixedLength="false" />
+            </EntityType>
+
+            <EntityType Name="Object-DataBuilder">
+                <Key>
+                    <PropertyRef Name="AssetNo" />
+                </Key>
+                <Property Name="AssetNo"
+                    Type="Edm.Int64"
+                    Nullable="false"
+                    Unicode="true"
+                    FixedLength="false" />
+                <Property Name="AssetID"
+                    Type="Edm.String"
+                    Nullable="false"
+                    Unicode="true"
+                    FixedLength="false" />
+                <Property Name="BusinessName"
+                    Type="Edm.String"
+                    Nullable="false"
+                    Unicode="true"
+                    FixedLength="false" />
+                <Property Name="TechnicalName"
+                    Type="Edm.String"
+                    Nullable="false"
+                    Unicode="true"
+                    FixedLength="false" />
+                <Property Name="Type"
+                    Type="Edm.String"
+                    Nullable="false"
+                    Unicode="true"
+                    FixedLength="false" />
+                <Property Name="Status"
+                    Type="Edm.String"
+                    Nullable="true"
+                    Unicode="true"
+                    FixedLength="false" />
+                <Property Name="DeployedOn"
+                    Type="Edm.String"
+                    Nullable="true"
+                    Unicode="true"
+                    FixedLength="false" />
+                <Property Name="ChangedBy"
+                    Type="Edm.String"
+                    Nullable="true"
+                    Unicode="true"
+                    FixedLength="false" />
+                <Property Name="ChangedOn"
+                    Type="Edm.String"
+                    Nullable="true"
+                    Unicode="true"
+                    FixedLength="false" />
+            </EntityType>
+
+            <EntityType Name="Object-StoryBuilder">
+                <Key>
+                    <PropertyRef Name="AssetNo" />
+                </Key>
+                <Property Name="AssetNo"
+                    Type="Edm.Int64"
+                    Nullable="false"
+                    Unicode="true"
+                    FixedLength="false" />
+                <Property Name="AssetID"
+                    Type="Edm.String"
+                    Nullable="false"
+                    Unicode="true"
+                    FixedLength="false" />
+                <Property Name="BusinessName"
+                    Type="Edm.String"
+                    Nullable="false"
+                    Unicode="true"
+                    FixedLength="false" />
+                <Property Name="TechnicalName"
+                    Type="Edm.String"
+                    Nullable="false"
+                    Unicode="true"
+                    FixedLength="false" />
+                <Property Name="Type"
+                    Type="Edm.String"
+                    Nullable="false"
+                    Unicode="true"
+                    FixedLength="false" />
+                <Property Name="Status"
+                    Type="Edm.String"
+                    Nullable="true"
+                    Unicode="true"
+                    FixedLength="false" />
+                <Property Name="DeployedOn"
+                    Type="Edm.String"
+                    Nullable="true"
+                    Unicode="true"
+                    FixedLength="false" />
+                <Property Name="ChangedBy"
+                    Type="Edm.String"
+                    Nullable="true"
+                    Unicode="true"
+                    FixedLength="false" />
+                <Property Name="ChangedOn"
+                    Type="Edm.String"
+                    Nullable="true"
+                    Unicode="true"
+                    FixedLength="false" />
+            </EntityType>
+
+            <EntityType Name="Object-DataAccessControl">
+                <Key>
+                    <PropertyRef Name="AssetNo" />
+                </Key>
+                <Property Name="AssetNo"
+                    Type="Edm.Int64"
+                    Nullable="false"
+                    Unicode="true"
+                    FixedLength="false" />
+                <Property Name="AssetID"
+                    Type="Edm.String"
+                    Nullable="false"
+                    Unicode="true"
+                    FixedLength="false" />
+                <Property Name="BusinessName"
+                    Type="Edm.String"
+                    Nullable="false"
+                    Unicode="true"
+                    FixedLength="false" />
+                <Property Name="TechnicalName"
+                    Type="Edm.String"
+                    Nullable="false"
+                    Unicode="true"
+                    FixedLength="false" />
+                <Property Name="Type"
+                    Type="Edm.String"
+                    Nullable="false"
+                    Unicode="true"
+                    FixedLength="false" />
+                <Property Name="Status"
+                    Type="Edm.String"
+                    Nullable="true"
+                    Unicode="true"
+                    FixedLength="false" />
+                <Property Name="DeployedOn"
+                    Type="Edm.String"
+                    Nullable="true"
+                    Unicode="true"
+                    FixedLength="false" />
+                <Property Name="ChangedBy"
+                    Type="Edm.String"
+                    Nullable="true"
+                    Unicode="true"
+                    FixedLength="false" />
+                <Property Name="ChangedOn"
+                    Type="Edm.String"
+                    Nullable="true"
+                    Unicode="true"
+                    FixedLength="false" />
+            </EntityType>
+
+            <EntityType Name="Object-EnterpriseSearchModeler">
+                <Key>
+                    <PropertyRef Name="AssetNo" />
+                </Key>
+                <Property Name="BusinessName"
+                    Type="Edm.String"
+                    Nullable="false"
+                    Unicode="true"
+                    FixedLength="false" />
+                <Property Name="TechnicalName"
+                    Type="Edm.String"
+                    Nullable="false"
+                    Unicode="true"
+                    FixedLength="false" />
+                <Property Name="Type"
+                    Type="Edm.String"
+                    Nullable="false"
+                    Unicode="true"
+                    FixedLength="false" />
+                <Property Name="Space"
+                    Type="Edm.String"
+                    Nullable="true"
+                    Unicode="true"
+                    FixedLength="false" />
+                <Property Name="Status"
+                    Type="Edm.String"
+                    Nullable="true"
+                    Unicode="true"
+                    FixedLength="false" />
+                <Property Name="DeployedOn"
+                    Type="Edm.String"
+                    Nullable="true"
+                    Unicode="true"
+                    FixedLength="false" />
+                <Property Name="ChangedBy"
+                    Type="Edm.String"
+                    Nullable="true"
+                    Unicode="true"
+                    FixedLength="false" />
+                <Property Name="ChangedOn"
+                    Type="Edm.String"
+                    Nullable="true"
+                    Unicode="true"
+                    FixedLength="false" />
+            </EntityType>
+
+            <EntityContainer Name="NavigationEntities"
+                p7:LazyLoadingEnabled="true"
+                m:IsDefaultEntityContainer="true"
+                xmlns:p7="http://schemas.microsoft.com/ado/2009/02/edm/annotation">
+
+                <EntitySet Name="Objects-BusinessBuilder"
+                    EntityType="NavigationModel.Object-BusinessBuilder" />
+                <EntitySet Name="Objects-DataBuilder"
+                    EntityType="NavigationModel.Object-DataBuilder" />
+                <EntitySet Name="Objects-StoryBuilder"
+                    EntityType="NavigationModel.Object-StoryBuilder" />
+                <EntitySet Name="Objects-DataAccessControl"
+                    EntityType="NavigationModel.Object-DataAccessControl" />
+                <EntitySet Name="Objects-EnterpriseSearchModeler"
+                    EntityType="NavigationModel.Object-EnterpriseSearchModeler" />
+
+            </EntityContainer>
+
+        </Schema>
+    </edmx:DataServices>
+</edmx:Edmx>

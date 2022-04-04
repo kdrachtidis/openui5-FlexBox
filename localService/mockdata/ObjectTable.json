@@ -1,0 +1,133 @@
+{
+    "Table": {
+        "ItemNo": 1,
+        "BusinessName": "Table for Sales Orders",
+        "TechnicalName": "Table_for_Sales_Orders",
+        "Type": "Local Table",
+        "SemanticUsage": "Relational Dataset",
+        "Status": "Deployed",
+        "StatusInfoState": "Success",
+        "DeployedOn": "Mar 10, 2021 16:22:32",
+        "ChangedBy": "User Template",
+        "ChangedOn": "Mar 9, 2021 15:04:10",
+        "BP_Description": "This could be a long description",
+        "BP_Purpose": "This is a purpose",
+        "BP_Person": "Nellie Albert",
+        "BP_Team": "Nellie Albert's Team",
+        "BP_Tags": "tag1, tag2, tag3"
+    },
+    "Columns": [
+        {
+            "BusinessName": "Column 1",
+            "TechnicalName": "Column_1",
+            "SemanticType": "None",
+            "DataType": "Integer64",
+            "Hidden": "No",
+            "Key": "No",
+            "NotNull": "No",
+            "DefaultValue": "0"
+        },
+        {
+            "BusinessName": "Column 2",
+            "TechnicalName": "Column_2",
+            "SemanticType": "None",
+            "DataType": "Integer64",
+            "Hidden": "No",
+            "Key": "No",
+            "NotNull": "Yes",
+            "DefaultValue": "0"
+        },
+        {
+            "BusinessName": "Column 3",
+            "TechnicalName": "Column_3",
+            "SemanticType": "None",
+            "DataType": "Integer64",
+            "Hidden": "No",
+            "Key": "No",
+            "NotNull": "No",
+            "DefaultValue": "0"
+        }
+    ],
+    "Associations": [
+        {
+            "BusinessName": "Association 1",
+            "TechnicalName": "Association_1",
+            "Type": "Association",
+            "Target": "View for Sales People",
+            "Mappings": "Column 1 = Column 3"
+        },
+        {
+            "BusinessName": "Association 2",
+            "TechnicalName": "Association_2",
+            "Type": "Association",
+            "Target": "View for Sales Locations",
+            "Mappings": "Column 1 = Column 3"
+        },
+        {
+            "BusinessName": "Association 3",
+            "TechnicalName": "Association_3",
+            "Type": "Association",
+            "Target": "View for Sales Numbers",
+            "Mappings": "Column 1 = Column 3"
+        }
+    ],
+    "BusinessPurpose": {
+        "Description": "This could be a long description",
+        "Purpose": "This is a purpose",
+        "Person": "Nellie Albert",
+        "Team": "Nellie Albert's Team",
+        "Tags": "tag1, tag2, tag3"
+    },
+    "Parameters": [
+        {
+            "BusinessName": "Parameter 1",
+            "TechnicalName": "Parameter_1",
+            "DataType": "Integer64"
+        },
+        {
+            "BusinessName": "Parameter 2",
+            "TechnicalName": "Parameter_2",
+            "DataType": "String(5000)"
+        },
+        {
+            "BusinessName": "Parameter 3",
+            "TechnicalName": "Parameter_3",
+            "DataType": "Integer64"
+        }
+    ],
+    "DependentObjects": [
+        {
+            "BusinessName": "View for Sales People",
+            "TechnicalName": "View_for_Sales_People",
+            "Status": "Deployed",
+            "State": "Success",
+            "DependencyType": "Source",
+            "SubDependencies": "11 (with 0 errors)",
+            "DeployedOn": "Mar 10, 2021 16:22:32",
+            "ChangedBy": "Nellie Albert",
+            "ChangedOn": "Mar 9, 2021 15:04:10"
+        },
+        {
+            "BusinessName": "Perspective for Sales",
+            "TechnicalName": "Perspective_for_Sales",
+            "Status": "Deployed",
+            "State": "Success",
+            "DependencyType": "Source",
+            "SubDependencies": "11 (with 0 errors)",
+            "DeployedOn": "Mar 10, 2021 16:22:32",
+            "ChangedBy": "Nellie Albert",
+            "ChangedOn": "Mar 9, 2021 15:04:10"
+        },
+        {
+            "BusinessName": "Data Access Control for Sales",
+            "TechnicalName": "Data_Access_Control_for_Sales",
+            "Status": "Deployed",
+            "State": "Success",
+            "DependencyType": "Target",
+            "SubDependencies": "11 (with 0 errors)",
+            "DeployedOn": "Mar 10, 2021 16:22:32",
+            "ChangedBy": "Nellie Albert",
+            "ChangedOn": "Mar 9, 2021 15:04:10"
+        }
+    ]
+}

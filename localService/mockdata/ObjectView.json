@@ -1,0 +1,191 @@
+{
+    "View": {
+        "ItemNo": 1,
+        "BusinessName": "View for Sales Orders",
+        "TechnicalName": "View_for_Sales_Orders",
+        "Type": "View",
+        "SemanticUsage": "AnalyticalDataset",
+        "Status": "Changes to Deploy",
+        "StatusInfoState": "Warning",
+        "DeployedOn": "Mar 10, 2021 16:22:32",
+        "ChangedBy": "Nellie Albert",
+        "ChangedOn": "Mar 9, 2021 15:04:10"
+    },
+    "Measures": [
+        {
+            "BusinessName": "Measure 1",
+            "TechnicalName": "Measure_1",
+            "SemanticType": "None",
+            "DataType": "Integer64",
+            "Aggregation": "SUM",
+            "Hidden": "No",
+            "Key": "No"
+        },
+        {
+            "BusinessName": "Measure 2",
+            "TechnicalName": "Measure_2",
+            "SemanticType": "None",
+            "DataType": "Integer64",
+            "Aggregation": "MAX",
+            "Hidden": "No",
+            "Key": "No"
+        },
+        {
+            "BusinessName": "Measure 3",
+            "TechnicalName": "Measure_3",
+            "SemanticType": "None",
+            "DataType": "Integer64",
+            "Aggregation": "COUNT",
+            "Hidden": "No",
+            "Key": "No"
+        }
+    ],
+    "Attributes": [
+        {
+            "BusinessName": "Attribute 1",
+            "TechnicalName": "Attribute_1",
+            "SemanticType": "None",
+            "DataType": "String(5000)",
+            "Hidden": "No",
+            "Key": "Yes"
+        },
+        {
+            "BusinessName": "Attribute 2",
+            "TechnicalName": "Attribute_2",
+            "SemanticType": "None",
+            "DataType": "String(5000)",
+            "Hidden": "No",
+            "Key": "No"
+        },
+        {
+            "BusinessName": "Attribute 3",
+            "TechnicalName": "Attribute_3",
+            "SemanticType": "None",
+            "DataType": "String(5000)",
+            "Hidden": "No",
+            "Key": "Yes"
+        }
+    ],
+    "Parameters": [
+        {
+            "BusinessName": "Parameter 1",
+            "TechnicalName": "Parameter_1",
+            "DataType": "Integer64"
+        },
+        {
+            "BusinessName": "Parameter 2",
+            "TechnicalName": "Parameter_2",
+            "DataType": "String(5000)"
+        },
+        {
+            "BusinessName": "Parameter 3",
+            "TechnicalName": "Parameter_3",
+            "DataType": "Integer64"
+        }
+    ],
+    "Persistency": {
+        "DataAccess": "N/A",
+        "Status": "N/A",
+        "Updated": "N/A"
+    },
+    "Associations": [
+        {
+            "BusinessName": "Association 1",
+            "TechnicalName": "Association_1",
+            "Source": "View for Sales Orders",
+            "Target": "View for Sales People"
+        },
+        {
+            "BusinessName": "Association 2",
+            "TechnicalName": "Association_2",
+            "Source": "View for Sales Orders",
+            "Target": "View for Sales Locations"
+        },
+        {
+            "BusinessName": "Association 3",
+            "TechnicalName": "Association_3",
+            "Source": "View for Sales Orders",
+            "Target": "View for Sales Numbers"
+        }
+    ],
+    "Controls": [
+        {
+            "BusinessName": "Control 1",
+            "TechnicalName": "Control_1",
+            "Source": "View for Sales Orders",
+            "Target": "View for Sales People"
+        },
+        {
+            "BusinessName": "Control 2",
+            "TechnicalName": "Control_2",
+            "Source": "View for Sales Orders",
+            "Target": "View for Sales Locations"
+        },
+        {
+            "BusinessName": "Control 3",
+            "TechnicalName": "Control_3",
+            "Source": "View for Sales Orders",
+            "Target": "View for Sales Numbers"
+        }
+    ],
+    "BusinessPurpose": {
+        "Description": "This could be a long description",
+        "Purpose": "This is a purpose",
+        "Person": "Nellie Albert",
+        "Team": "Nellie Albert's Team",
+        "Tags": "tag1, tag2, tag3"
+    },
+    "DependentObjects": [
+        {
+            "BusinessName": "View for Sales People",
+            "TechnicalName": "View_for_Sales_People",
+            "Status": "Deployed",
+            "State": "Success",
+            "Type": "Source"
+        },
+        {
+            "BusinessName": "Perspective for Sales",
+            "TechnicalName": "Perspective_for_Sales",
+            "Status": "Deployed",
+            "State": "Success",
+            "Type": "Source"
+        },
+        {
+            "BusinessName": "Data Access Control for Sales",
+            "TechnicalName": "Data_Access_Control_for_Sales",
+            "Status": "Deployed",
+            "State": "Success",
+            "Type": "Target"
+        }
+    ],
+    "ContentObjects": [
+        {
+            "BusinessName": "Table for Sales Orders (1)",
+            "TechnicalName": "Table_for_Sales_Orders_(1)",
+            "Type": "Table (Relational Dataset)",
+            "Status": "Deployed",
+            "State": "Success"
+        },
+        {
+            "BusinessName": "Table for Sales Orders (2)",
+            "TechnicalName": "Table_for_Sales_Orders_(2)",
+            "Type": "Table (Relational Dataset)",
+            "Status": "Changes to deploy",
+            "State": "Warning"
+        },
+        {
+            "BusinessName": "Table for Sales Orders (3)",
+            "TechnicalName": "Table_for_Sales_Orders_(3)",
+            "Type": "Table (Relational Dataset)",
+            "Status": "Deployed",
+            "State": "Success"
+        },
+        {
+            "BusinessName": "Table for Sales Orders (4)",
+            "TechnicalName": "Table_for_Sales_Orders_(5)",
+            "Type": "Table (Relational Dataset)",
+            "Status": "Changes to deploy",
+            "State": "Warning"
+        }
+    ]
+}

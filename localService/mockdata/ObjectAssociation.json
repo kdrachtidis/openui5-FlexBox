@@ -1,0 +1,90 @@
+{
+    "Association": {
+        "ItemNo": 1,
+        "BusinessName": "Association 1",
+        "TechnicalName": "Association_1",
+        "Type": "Association",
+        "From": "Table for Sales Orders",
+        "To": "Table for Sales People"
+    },
+    "Columns": [
+        {
+            "BusinessName": "Column 1",
+            "TechnicalName": "Column_1"
+        },
+        {
+            "BusinessName": "Column 2",
+            "TechnicalName": "Column_2"
+        },
+        {
+            "BusinessName": "Column 3",
+            "TechnicalName": "Column_3"
+        },
+        {
+            "BusinessName": "Column 4",
+            "TechnicalName": "Column_4"
+        },
+        {
+            "BusinessName": "Column 5",
+            "TechnicalName": "Column_5"
+        },
+        {
+            "BusinessName": "Column 6",
+            "TechnicalName": "Column_6"
+        },
+        {
+            "BusinessName": "Column 7",
+            "TechnicalName": "Column_7"
+        },
+        {
+            "BusinessName": "Column 8",
+            "TechnicalName": "Column_8"
+        },
+        {
+            "BusinessName": "Column 9",
+            "TechnicalName": "Column_9"
+        },
+        {
+            "BusinessName": "Column 10",
+            "TechnicalName": "Column_10"
+        },
+        {
+            "BusinessName": "Column 11",
+            "TechnicalName": "Column_11"
+        },
+        {
+            "BusinessName": "Column 12",
+            "TechnicalName": "Column_12"
+        }
+    ],
+    "Mappings": [
+        {
+            "BusinessName": "None",
+            "TargetEntity": "Table for Sales People"
+        },
+        {
+            "BusinessName": "Column 1",
+            "TargetEntity": "Table for Sales People"
+        },
+        {
+            "BusinessName": "Column 2",
+            "TargetEntity": "Table for Sales People"
+        },
+        {
+            "BusinessName": "Column 3",
+            "TargetEntity": "Table for Sales People"
+        },
+        {
+            "BusinessName": "Column 4",
+            "TargetEntity": "Table for Sales People"
+        },
+        {
+            "BusinessName": "Column 5",
+            "TargetEntity": "Table for Sales People"
+        },
+        {
+            "BusinessName": "Column 6",
+            "TargetEntity": "Table for Sales People"
+        }
+    ]
+}

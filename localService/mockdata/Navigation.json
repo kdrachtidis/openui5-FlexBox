@@ -1,0 +1,120 @@
+{
+  "navigation": [
+    {
+      "title": "Home",
+      "icon": "sap-icon://home",
+      "key": "home"
+    },
+    {
+      "title": "Files",
+      "icon": "sap-icon://folder-blank",
+      "expanded": false
+    },
+    {
+      "title": "Explorer",
+      "icon": "sap-icon://browse-folder",
+      "expanded": false
+    },
+    {
+      "title": "Story Builder",
+      "icon": "sap-icon://puzzle",
+      "key": "storyBuilder",
+      "expanded": false
+    },
+    {
+      "title": "Business Builder",
+      "icon": "sap-icon://puzzle",
+      "key": "businessBuilder",
+      "expanded": false
+    },
+    {
+      "title": "Data Builder",
+      "icon": "sap-icon://puzzle",
+      "key": "dataBuilder",
+      "expanded": false
+    },
+    {
+      "title": "Data Access Control",
+      "icon": "sap-icon://puzzle",
+      "key": "dataAccessControls",
+      "expanded": false
+    },
+    {
+      "title": "Data Integration Monitor",
+      "icon": "sap-icon://puzzle",
+      "expanded": false
+    },
+    {
+      "title": "Import Metadata",
+      "icon": "sap-icon://upload",
+      "expanded": false
+    },
+    {
+      "title": "ES Modeler",
+      "icon": "sap-icon://browse-folder",
+      "key": "enterpriseSearchModeler",
+      "expanded": false
+    },
+    {
+      "title": "Variants",
+      "icon": "sap-icon://grid",
+      "expanded": false,
+      "items": [
+        {
+          "title": "View - Read only",
+          "key": "objectViewReadOnly"
+        },
+        {
+          "title": "View - Edit",
+          "key": "objectViewEdit"
+        },
+        {
+          "title": "Table - Read only",
+          "key": "objectTableReadOnly"
+        },
+        {
+          "title": "Table - Edit",
+          "key": "objectTableEdit"
+        },
+        {
+          "title": "Association - Read only",
+          "key": "objectAssociationReadOnly"
+        },
+        {
+          "title": "Association - Edit",
+          "key": "objectAssociationEdit"
+        },
+        {
+          "title": "Worklist in FCL",
+          "key": "fclListToObject"
+        }
+      ]
+    }
+  ],
+  "fixedNavigation": [
+    {
+      "title": "Space Management",
+      "icon": "sap-icon://it-instance"
+    },
+    {
+      "title": "Content Network",
+      "icon": "sap-icon://education"
+    },
+    {
+      "title": "Security",
+      "icon": "sap-icon://locked"
+    },
+    {
+      "title": "Transport",
+      "icon": "sap-icon://share-2"
+    },
+    {
+      "title": "Configuration",
+      "icon": "sap-icon://wrench"
+    },
+    {
+      "title": "About",
+      "icon": "sap-icon://information"
+    }
+  ]
+}

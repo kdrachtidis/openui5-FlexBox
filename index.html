@@ -19,8 +19,10 @@
     <script>
         sap.ui.getCore().attachInit(function () {
             sap.ui.require([
+            "DemoUXapp/localService/mockserver",
                 "sap/ui/core/ComponentContainer"
-            ], function () {
+            ], function (mockserver) {
+                mockserver.onInit();
                 new sap.ui.core.ComponentContainer({
                     name: "DemoUXapp"
                 }).placeAt("content");

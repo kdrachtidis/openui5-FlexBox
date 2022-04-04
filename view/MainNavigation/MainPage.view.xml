@@ -8,7 +8,7 @@
     <content>
       <FlexBox alignItems="Start"
         width="100%">
-        <VBox width="300px"
+        <VBox width="16rem"
           backgroundDesign="Solid">
           <OverflowToolbar design="Transparent"
             height="5rem">
@@ -25,47 +25,10 @@
               <Label text="9 Dataset(s)" />
             </VBox>
           </OverflowToolbar>
-          <List headerText="Items (7)">
-            <items>
-              <StandardListItem title="Technical Name"
-                description="Technical Name"
-                info="/SourcePath">
-
-              </StandardListItem>
-              <StandardListItem title="Technical Name"
-                description="Technical Name"
-                info="/SourcePath">
-
-              </StandardListItem>
-              <StandardListItem title="Technical Name"
-                description="Technical Name"
-                info="/SourcePath">
-
-              </StandardListItem>
-              <StandardListItem title="Technical Name"
-                description="Technical Name"
-                info="/SourcePath">
-
-              </StandardListItem>
-              <StandardListItem title="Technical Name"
-                description="Technical Name"
-                info="/SourcePath">
-
-              </StandardListItem>
-              <StandardListItem title="Technical Name"
-                description="Technical Name"
-                info="/SourcePath">
-
-              </StandardListItem>
-              <StandardListItem title="Technical Name"
-                description="Technical Name"
-                info="/SourcePath">
-
-              </StandardListItem>
-            </items>
-          </List>
+          <mvc:XMLView viewName="DemoUXapp.view.MainNavigation.Input" />
         </VBox>
-        <VBox width="60%" backgroundDesign="Solid">
+        <VBox width="60%"
+          backgroundDesign="Solid">
           <OverflowToolbar height="5rem">
             <ToolbarSpacer />
             <SegmentedButton selectedKey="transformation">
@@ -77,48 +40,9 @@
               </items>
             </SegmentedButton>
           </OverflowToolbar>
-          <List headerText="Items (7)"
-            width="200px">
-            <items>
-              <StandardListItem title="Technical Name"
-                description="Technical Name"
-                info="/SourcePath">
-
-              </StandardListItem>
-              <StandardListItem title="Technical Name"
-                description="Technical Name"
-                info="/SourcePath">
-
-              </StandardListItem>
-              <StandardListItem title="Technical Name"
-                description="Technical Name"
-                info="/SourcePath">
-
-              </StandardListItem>
-              <StandardListItem title="Technical Name"
-                description="Technical Name"
-                info="/SourcePath">
-
-              </StandardListItem>
-              <StandardListItem title="Technical Name"
-                description="Technical Name"
-                info="/SourcePath">
-
-              </StandardListItem>
-              <StandardListItem title="Technical Name"
-                description="Technical Name"
-                info="/SourcePath">
-
-              </StandardListItem>
-              <StandardListItem title="Technical Name"
-                description="Technical Name"
-                info="/SourcePath">
-
-              </StandardListItem>
-            </items>
-          </List>
+          <mvc:XMLView viewName="DemoUXapp.view.MainNavigation.Replicate" />
         </VBox>
-        <VBox width="300px"
+        <VBox width="16rem"
           backgroundDesign="Solid">
           <OverflowToolbar design="Transparent"
             height="5rem">
@@ -135,45 +59,7 @@
               <Label text="0 Dataset(s)" />
             </VBox>
           </OverflowToolbar>
-          <List headerText="Items (7)">
-            <items>
-              <StandardListItem title="Technical Name"
-                description="Technical Name"
-                info="/SourcePath">
-
-              </StandardListItem>
-              <StandardListItem title="Technical Name"
-                description="Technical Name"
-                info="/SourcePath">
-
-              </StandardListItem>
-              <StandardListItem title="Technical Name"
-                description="Technical Name"
-                info="/SourcePath">
-
-              </StandardListItem>
-              <StandardListItem title="Technical Name"
-                description="Technical Name"
-                info="/SourcePath">
-
-              </StandardListItem>
-              <StandardListItem title="Technical Name"
-                description="Technical Name"
-                info="/SourcePath">
-
-              </StandardListItem>
-              <StandardListItem title="Technical Name"
-                description="Technical Name"
-                info="/SourcePath">
-
-              </StandardListItem>
-              <StandardListItem title="Technical Name"
-                description="Technical Name"
-                info="/SourcePath">
-
-              </StandardListItem>
-            </items>
-          </List>
+          <mvc:XMLView viewName="DemoUXapp.view.MainNavigation.Output" />
         </VBox>
       </FlexBox>
     </content>

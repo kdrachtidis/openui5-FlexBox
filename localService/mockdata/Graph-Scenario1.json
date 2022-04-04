@@ -1,0 +1,72 @@
+{
+    "nodes": [
+        {
+            "key": 0,
+            "title": "Table for Sales Orders 1",
+            "icon": "sap-icon://table-view",
+            "status": "Success",
+            "group": "A"
+        },
+        {
+            "key": 1,
+            "title": "Table for Sales Orders 2",
+            "icon": "sap-icon://table-view",
+            "status": "Success",
+            "group": "A"
+        },
+        {
+            "key": 2,
+            "title": "Table for Sales Orders 3",
+            "icon": "sap-icon://table-view",
+            "status": "Success",
+            "group": "A"
+        },
+        {
+            "key": 3,
+            "title": "Table for Sales Orders 4",
+            "icon": "sap-icon://table-view",
+            "status": "Success",
+            "group": "A"
+        }
+        ,
+        {
+            "key": 4,
+            "title": "View for Sales Orders",
+            "icon": "sap-icon://detail-view",
+            "status": "Success",
+            "group": "B"
+        }
+    ],
+    "lines": [
+        {
+            "from": 0,
+            "to": 4,
+            "status": "Success"
+        },
+        {
+            "from": 1,
+            "to": 4,
+            "status": "Success"
+        },
+        {
+            "from": 2,
+            "to": 4,
+            "status": "Success"
+        },
+        {
+            "from": 3,
+            "to": 4,
+            "status": "Success"
+        }
+    ],
+    "groups": [
+        {
+            "key": "A",
+            "title": "Input"
+        },
+        {
+            "key": "B",
+            "title": "Output"
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+<mvc:View controllerName="DemoUXapp.controller.MainNavigation.Table"
+    height="100%"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns:ui="sap.ui.table"
+    xmlns:core="sap.ui.core"
+    xmlns:m="sap.m"
+    displayBlock="true">
+
+    <ui:Table id="idProductsTable"
+        rows="{path:'/results', templateShareable: true}"
+        alternateRowColors="true"
+        visibleRowCount="15"
+        selectionBehavior="RowSelector"
+        selectionMode="None"
+        columnHeaderVisible="false"
+        enableSelectAll="false"
+        width="100%">
+
+        <ui:extension>
+
+        </ui:extension>
+
+        <ui:columns>
+            <ui:Column>
+                <m:Label text="Type" />
+                <ui:template>
+                    <m:Text text="{Type}" />
+                </ui:template>
+            </ui:Column>
+            <ui:Column>
+                <m:Label text="Status" />
+                <ui:template>
+                    <m:Text text="{Status}" />
+                </ui:template>
+            </ui:Column>
+        </ui:columns>
+        <ui:rowActionTemplate>
+
+        </ui:rowActionTemplate>
+        <ui:footer>
+
+        </ui:footer>
+    </ui:Table>
+
+</mvc:View>
