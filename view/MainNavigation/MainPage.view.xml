@@ -8,8 +8,23 @@
     <content>
       <FlexBox alignItems="Start"
         width="100%">
-        <VBox width="25%">
-          
+        <VBox width="300px"
+          backgroundDesign="Solid">
+          <OverflowToolbar design="Transparent"
+            height="5rem">
+            <VBox>
+              <Title text="S4_HANA" />
+              <Label text="ABAP" />
+            </VBox>
+            <ToolbarSpacer />
+            <VBox>
+              <HBox>
+                <Button icon="sap-icon://edit" />
+                <Button icon="sap-icon://action-settings" />
+              </HBox>
+              <Label text="9 Dataset(s)" />
+            </VBox>
+          </OverflowToolbar>
           <List headerText="Items (7)">
             <items>
               <StandardListItem title="Technical Name"
@@ -50,31 +65,20 @@
             </items>
           </List>
         </VBox>
-        <VBox width="70%">
-          <IconTabBar id="idIconTabBarMulti"
-            expanded="{device>/isNoPhone}"
-            class="sapUiResponsiveContentPadding">
-            <items>
-              <IconTabFilter icon="sap-icon://overview-chart"
-                text="Tab 1"
-                design="Horizontal">
-              </IconTabFilter>
-              <IconTabFilter icon="sap-icon://org-chart"
-                text="Tab 2"
-                design="Horizontal">
-              </IconTabFilter>
-              <IconTabFilter icon="sap-icon://switch-views"
-                text="Tab 3"
-                design="Horizontal">
-              </IconTabFilter>
-              <IconTabFilter icon="sap-icon://pie-chart"
-                text="tab 4"
-                design="Horizontal">
-              </IconTabFilter>
-            </items>
-          </IconTabBar>
+        <VBox width="60%" backgroundDesign="Solid">
+          <OverflowToolbar height="5rem">
+            <ToolbarSpacer />
+            <SegmentedButton selectedKey="transformation">
+              <items>
+                <SegmentedButtonItem text="Transformation"
+                  key="transformation" />
+                <SegmentedButtonItem text="Settings" />
+                <SegmentedButtonItem text="Execution" />
+              </items>
+            </SegmentedButton>
+          </OverflowToolbar>
           <List headerText="Items (7)"
-            width="100%">
+            width="200px">
             <items>
               <StandardListItem title="Technical Name"
                 description="Technical Name"
@@ -114,7 +118,23 @@
             </items>
           </List>
         </VBox>
-        <VBox>
+        <VBox width="300px"
+          backgroundDesign="Solid">
+          <OverflowToolbar design="Transparent"
+            height="5rem">
+            <VBox>
+              <Title text="HANA Cloud" />
+              <Label text="HANA_Cloud" />
+            </VBox>
+            <ToolbarSpacer />
+            <VBox>
+              <HBox>
+                <Button icon="sap-icon://edit" />
+                <Button icon="sap-icon://action-settings" />
+              </HBox>
+              <Label text="0 Dataset(s)" />
+            </VBox>
+          </OverflowToolbar>
           <List headerText="Items (7)">
             <items>
               <StandardListItem title="Technical Name"
